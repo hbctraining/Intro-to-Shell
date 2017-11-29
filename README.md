@@ -1,20 +1,18 @@
-# Introduction to RNA-seq using high-performance computing (HPC)
+# Introduction to shell (UNIX)
 
 | Audience | Computational Skills | Prerequisites | Duration |
 :----------|:----------|:----------|:----------|
-| Biologists | Beginner/Intermediate | None | 2-day workshop (~13 hours of trainer-led time)|
+| Biologists | Beginner/Intermediate | None | 1-day workshop (~7 hours of trainer-led time)|
 
 ### Description
 
-This repository has teaching materials for a 2-day Introduction to RNA-sequencing data analysis workshop. This workshop focuses on teaching basic computational skills to enable the effective use of an high-performance computing environment to implement an RNA-seq data analysis workflow. It includes an introduction to shell (bash) and shell scripting. In addition to running the RNA-seq workflow from FASTQ files to count data, the workshop covers best practice guidlelines for RNA-seq experimental design and data organization/management.
+This repository has teaching materials for a 1-day Introduction to shell workshop. This workshop focuses on teaching basic skills to use the command line interface using the `bash` shell, including shell scripting. This workshop is a prerequisite to a workshop on RNA-seq analysis.
 
 > These materials were developed for a trainer-led workshop, but are also amenable to self-guided learning.
 
 ### Learning Objectives
 
-1.	Understand the necessity for, and use of, the command line interface (bash) and HPC for analyzing high-throughput sequencing data.
-2.	Understand best practices for designing an RNA-seq experiment and analysis the resulting data.
-
+1.	Understand the necessity for, and use of, the command line interface (bash/shell).
 
 ### Contents
 
@@ -25,14 +23,6 @@ This repository has teaching materials for a 2-day Introduction to RNA-sequencin
 |[Introduction to the Vim text editor ](lessons/03_vim.md) | 30 min |
 |[Shell scripts and `for` loops](lessons/04_loops_and_scripts.md) | 75 min |
 |[Permissions and environment variables](lessons/05_permissions_and_environment_variables.md) | 50 min |
-|[Project and data organization](lessons/06_data_organization.md) | 40 min |
-|[RNA-seq experimental design best practices](lectures/rna-seq_design.pdf) | 50 min |
-|[Introduction to High-Performance Computing for HMS-RC's O2 cluster](lectures/HPC_intro_O2.pdf) | 45 min |
-|[RNA-seq data QC with FastQC](lessons/07_assessing_quality.md) | 75 min |
-|[RNA-seq workflow: Alignment and Counting](lessons/08_rnaseq_workflow.md) | 90 min |
-|[Automating the RNA-seq workflow](lessons/09_automating_workflow.md) | 60 min |
-|[Alternative workflows for analyzing RNA-seq data](lectures/RNAseq-analysis-methods.pdf) | 15 min |
-|[Quantifying expression using alignment-free methods (Salmon)](lessons/10_salmon.md) | 75 min |
 
 ### Dataset
 
