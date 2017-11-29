@@ -233,7 +233,7 @@ Check what hidden files exist in our home directory using the `-a` flag:
 $ ls -al ~/
 ```
 
-We want to add `/n/app/bcbio/tools/bin` to the beginning of the list in `$PATH`, we need tools within this directory for the RNA-Seq workflow. We can add the appropriate `export` command to do this at the end of the `.bashrc` file, this will make it so that when you start a new shell session the location will always be in your path. 
+Suppose we want to add `/n/app/bcbio/tools/bin` to the beginning of the list in `$PATH`. This directory contains executables for many tools useful for NGS analysis. We can add this location by including an `export` command to do this at the end of the `.bashrc` file, this will make it so that when you start a new shell session the location will always be in your path. 
 
 Open the `.bashrc` file using `vim` and at the end of the file add the export command that adds a specific location to the list in `$PATH`. 
 
