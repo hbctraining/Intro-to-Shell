@@ -66,17 +66,17 @@ Make sure that your command prompt is now preceded by a character string that co
 Copy our example data folder to your home directory using the following command:
 
 ```bash
-$ cp -r /n/groups/hbctraining/unix_workshop/ .
+$ cp -r /n/groups/hbctraining/unix_lesson/ .
 ```
 
->'cp' is the command for copy. This command required you to specify the location of the item you want to copy (/groups/hbctraining/unix_workshop/) and the location of the destination (.); please note the space between the 2 in the command. The "-r" is an option that modifies the copy command to do something slightly different than usual. The "." means "here", i.e. the destination location is where you currently are.
+>'cp' is the command for copy. This command required you to specify the location of the item you want to copy (/groups/hbctraining/unix_lesson/) and the location of the destination (.); please note the space between the 2 in the command. The "-r" is an option that modifies the copy command to do something slightly different than usual. The "." means "here", i.e. the destination location is where you currently are.
 
 ## Starting with the shell
 
-We have each created our own copy of the example data folder into our home directory, **unix_workshop**. Let's go into the data folder and explore the data using the shell.
+We have each created our own copy of the example data folder into our home directory, **unix_lesson**. Let's go into the data folder and explore the data using the shell.
 
 ```bash
-$ cd unix_workshop
+$ cd unix_lesson
 ```
 
 > 'cd' stands for 'change directory'
@@ -162,9 +162,9 @@ As you've already just seen, you can move around in different directories or fol
 
 Let's practice moving around a bit.
 
-We're going to work in that `unix_workshop` directory.
+We're going to work in that `unix_lesson` directory.
 
-First we did something like go to the folder of our username. Then we opened `unix_workshop` then `raw_fastq`
+First we did something like go to the folder of our username. Then we opened `unix_lesson` then `raw_fastq`
 
 Like on any computer you have used before the file structure within unix is hierarchical, like an upside down tree with root (/) as the starting point of the tree-like structure:
 
@@ -187,7 +187,7 @@ $ cd
 > This puts you in your home directory. No matter where you are in the directory system, `cd` will always bring you back to your home directory.
 
 
-Now using `cd` and `ls`, go in to the `unix_workshop` directory and list its contents. Now go into the `raw_fastq` directory, and list its contents.
+Now using `cd` and `ls`, go in to the `unix_lesson` directory and list its contents. Now go into the `raw_fastq` directory, and list its contents.
 
 Let's also check to see where we are. Sometimes when we're wandering around in the file system, it's easy to lose track of where we are. The command that tells you this is:
 
@@ -197,7 +197,7 @@ $ pwd
 
 > This stands for 'print working directory'. i.e. the directory you're currently working in.
 
-What if we want to move back up and out of the `raw_fastq` directory? Can we just type `cd unix_workshop`? Try it and see what happens.
+What if we want to move back up and out of the `raw_fastq` directory? Can we just type `cd unix_lesson`? Try it and see what happens.
 
 To go 'back up a level' we can use `..`
 
@@ -225,15 +225,15 @@ $ cd
 Then enter the command:
 
 ```bash
-$ ls unix_workshop/
+$ ls unix_lesson/
 ```
 
-This will list the contents of the `unix_workshop` directory without you having to navigate there.
+This will list the contents of the `unix_lesson` directory without you having to navigate there.
 
 The `cd` command works in a similar way.
 
 ```bash
-$ cd unix_workshop/raw_fastq/
+$ cd unix_lesson/raw_fastq/
 $ pwd
 ```
 
@@ -265,17 +265,17 @@ which is the full path for your home directory. This tells you that you are in a
 Now enter the following command:
 
 ```bash
-$ cd /home/username/unix_workshop/raw_fastq/
+$ cd /home/username/unix_lesson/raw_fastq/
 ```
 
 This jumps to `raw_fastq`. Now go back to the home directory (`cd`). We saw
 earlier that the command:
 
 ```bash
-$ cd unix_workshop/raw_fastq/
+$ cd unix_lesson/raw_fastq/
 ```
 
-had the same effect - it took us to the `raw_fastq` directory. But, instead of specifying the full path (`/home/username/unix_workshop/raw_fastq`), we specified a *relative path*. In other words, we specified the path **relative to our current working directory**. 
+had the same effect - it took us to the `raw_fastq` directory. But, instead of specifying the full path (`/home/username/unix_lesson/raw_fastq`), we specified a *relative path*. In other words, we specified the path **relative to our current working directory**. 
 
 **A full path always starts with a `/`, a relative path does not.**
 
@@ -288,7 +288,7 @@ Over time, it will become easier for you to keep a mental note of the structure 
 ***
 **Exercise**
 
-Change directories to `/home/username/unix_workshop/raw_fastq/`, and list the contents of `unix_workshop/other` without changing directories again.
+Change directories to `/home/username/unix_lesson/raw_fastq/`, and list the contents of `unix_lesson/other` without changing directories again.
 ***
 
 ### Saving time with tab completion, wildcards and other shortcuts 
@@ -301,7 +301,7 @@ Navigate to the home directory. Typing out directory names can waste a lot of ti
 $ cd uni<tab>
 ```
 
-The shell will fill in the rest of the directory name for `unix_workshop`. Now go to `unix_workshop/raw_fastq` and 
+The shell will fill in the rest of the directory name for `unix_lesson`. Now go to `unix_lesson/raw_fastq` and 
 
 ```bash
 $ ls Mov10_oe_<tab><tab>
@@ -315,8 +315,7 @@ Tab completion can also fill in the names of commands. For example, enter `e<tab
 
 #### Wild cards
 
-Navigate to the `~/unix_workshop/raw_fastq` directory. This
-directory contains FASTQ files from our RNA-Seq experiment. 
+Navigate to the `~/unix_lesson/raw_fastq` directory. This directory contains FASTQ files from a next-generation sequencing dataset. 
 
 The '*' character is a shortcut for "everything". Thus, if you enter `ls *`, you will see all of the contents of a given directory. Now try this command:
 
@@ -367,7 +366,7 @@ $ cd
 ```
 
 ```bash
-$ cd unix_workshop/raw_fastq
+$ cd unix_lesson/raw_fastq
 ```
 
 Then enter the command:
@@ -384,7 +383,7 @@ Another shortcut is the "..":
 $ ls ..
 ```
 
-The shortcut `..` always refers to the directory above your current directory. So, it prints the contents of the `unix_workshop`. You can chain these together, so:
+The shortcut `..` always refers to the directory above your current directory. So, it prints the contents of the `unix_lesson`. You can chain these together, so:
 
 ```bash
 $ ls ../..
@@ -427,10 +426,10 @@ We now know how to move around the file system and look at the
 contents of directories, but how do we look at the contents of files?
 
 The easiest way to examine a file is to just print out all of the
-contents using the command `cat`. Print the contents of `unix_workshop/other/sequences.fa` by entering the following command:
+contents using the command `cat`. Print the contents of `unix_lesson/other/sequences.fa` by entering the following command:
 
 ```bash
-$ cat ~/unix_workshop/other/sequences.fa
+$ cat ~/unix_lesson/other/sequences.fa
 ```
 
 This prints out the all the contents of `sequences.fa` to the screen.
@@ -447,7 +446,7 @@ Move back to our `raw_fastq` directory and enter the following command:
 less Mov10_oe_1.subset.fq
 ```
 
-We will explore fastq files in more detail later, but notice that fastq files have four lines of data associated with every sequence read. Not only is there a header line and the nucleotide sequence, similar to a fasta file, but fastq files also contain quality information for each nucleotide in the sequence. 
+We will explore FASTQ files in more detail later, but notice that FASTQ files have four lines of data associated with every sequence read. Not only is there a header line and the nucleotide sequence, similar to a FASTA file, but FASTQ files also contain quality information for each nucleotide in the sequence. 
 
 The `less` command opens the file, and lets you navigate through it. The keys used to move around the file are identical to the `man` command.
 
