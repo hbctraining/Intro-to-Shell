@@ -66,10 +66,10 @@ On the right side, we have the files' names. Next to them, moving left, are the 
 
 Next to the modification time is the file's size in bytes and the names of the user and group that owns it. In this case, it is the eCommons IDs denoting either Mary, Meeta or me as an owner and `hbctraining` is the associated group. 
 
-Now, take a look at the `unix_workshop` directory in your home directory to explore that first column a little more:
+Now, take a look at the `unix_lesson` directory in your home directory to explore that first column a little more:
 
 ```bash
-ls -l ~/unix_workshop/
+ls -l ~/unix_lesson/
 
 drwxrwsr-x 2 rsk27 rsk27  78 Aug 22 21:08 genomics_data
 drwxrwsr-x 2 rsk27 rsk27 725 Aug 22 21:16 other
@@ -119,15 +119,15 @@ Well, `x` means something different for directories. It gives someone the right 
 To change permissions, we use the `chmod` command (whose name stands for "change mode"). Let's make our README.txt file **inaccessible** to all users other than you and the group the file belong to (you, in this case), currently they are able to read it:
 
 ```bash
-$ ls -l ~/unix_workshop/README.txt
+$ ls -l ~/unix_lesson/README.txt
 
--rw-rw-r-- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_workshop/README.txt
+-rw-rw-r-- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_lesson/README.txt
 
-$ chmod o-rw ~/unix_workshop/README.txt         # the "-" after o denotes removing that permission
+$ chmod o-rw ~/unix_lesson/README.txt         # the "-" after o denotes removing that permission
 
-$ ls -l ~/unix_workshop/README.txt
+$ ls -l ~/unix_lesson/README.txt
 
--rw-rw---- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_workshop/README.txt
+-rw-rw---- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_lesson/README.txt
 ```
 
 The `o` signals that we're changing the privileges of "others".
@@ -135,16 +135,16 @@ The `o` signals that we're changing the privileges of "others".
 Let's change it back to allow it to be readable by others:
 
 ```bash
-$ chmod o+r ~/unix_workshop/README.txt         # the "+" after o denotes adding/giving that permission
+$ chmod o+r ~/unix_lesson/README.txt         # the "+" after o denotes adding/giving that permission
 
-$ ls -l ~/unix_workshop/README.txt
+$ ls -l ~/unix_lesson/README.txt
 
--rw-rw-r-- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_workshop/README.txt
+-rw-rw-r-- 1 rsk27 rsk27 377 Oct  6 10:28 /home/rsk27/unix_lesson/README.txt
 ```
 
 If we wanted to make this an executable file for ourselves (the file's owners) we would say `chmod u+rwx`, where the `u` signals that we are changing permission for the file's owner. To change permissions for the "group", you'd use the letter `g`, e.g. `chmod g-w`. 
 
->> The fact that something is marked as executable doesn't actually mean it contains or is a program of some kind. We could easily mark the `~/unix_workshop/raw_fastq/Irrel_kd_1.subset.fq` file as executable using `chmod`. Depending on the operating system we're using, trying to "run" it will fail (because it doesn't contain instructions the computer recognizes, i.e. it is not a script of some type).
+>> The fact that something is marked as executable doesn't actually mean it contains or is a program of some kind. We could easily mark the `~/unix_lesson/raw_fastq/Irrel_kd_1.subset.fq` file as executable using `chmod`. Depending on the operating system we're using, trying to "run" it will fail (because it doesn't contain instructions the computer recognizes, i.e. it is not a script of some type).
 
 ****
 **Exercise**

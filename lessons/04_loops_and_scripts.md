@@ -88,7 +88,7 @@ $ file=Mov10_oe_1.subset.fq
 Once you press return, you should be back at the command prompt. Let's check what's stored inside `file`, but first move into the `raw_fastq` directory::
 
 ```bash
-$ cd ~/unix_workshop/raw_fastq
+$ cd ~/unix_lesson/raw_fastq
 $ echo $file
 ```
 
@@ -184,7 +184,7 @@ In this case the list of files is specified using the asterisk wildcard: `*.fq`,
 
 Then, we execute 2 commands between the `do` and `done`. With a loop, we execute these commands for each file at a time. Once the commands are executed for one file, the loop then executes the same commands on the next file in the list. 
 
-Essentially, **the number of items in the list (variable name) == number of times the code will loop through**, in our case that is 2 times since we have 2 files in `~/unix_workshop/raw_fastq` that end in `.fq`, and these filenames are stored in the `filename` variable.
+Essentially, **the number of items in the list (variable name) == number of times the code will loop through**, in our case that is 2 times since we have 2 files in `~/unix_lesson/raw_fastq` that end in `.fq`, and these filenames are stored in the `filename` variable.
 
 It doesn't matter what variable name we use, but it is advisable to make it something more intuitive. In the long run, it's best to use a name that will help point out a variable's functionality, so your future self will understand what you are thinking now.
 
@@ -200,13 +200,13 @@ $ cd
 Then we will run the `basename` command on one of the FASTQ files. Be sure to specify the path to the file:
 
 ```bash
-$ basename ~/unix_workshop/raw_fastq/Mov10_oe_1.subset.fq
+$ basename ~/unix_lesson/raw_fastq/Mov10_oe_1.subset.fq
 ```
 
-What is returned to you? The filename was split into the path `unix_workshop/raw_fastq/` and the filename `Mov10_oe_1.subset.fq`. The command returns only the filename. Now, suppose we wanted to also trim off the file extension (i.e. remove `.fq` leaving only the file *base name*). We can do this by adding a parameter to the command to specify what string of characters we want trimmed.
+What is returned to you? The filename was split into the path `unix_lesson/raw_fastq/` and the filename `Mov10_oe_1.subset.fq`. The command returns only the filename. Now, suppose we wanted to also trim off the file extension (i.e. remove `.fq` leaving only the file *base name*). We can do this by adding a parameter to the command to specify what string of characters we want trimmed.
 
 ```bash
-$ basename ~/unix_workshop/raw_fastq/Mov10_oe_1.subset.fq .fq
+$ basename ~/unix_lesson/raw_fastq/Mov10_oe_1.subset.fq .fq
 ```
 
 You should now see that only `Mov10_oe_1.subset` is returned. 
@@ -229,10 +229,10 @@ Now that you've learned how to use loops and variables, let's put this processin
 
 You might not realize it, but this is something that you now know how to do. Let's get started...
 
-Rather than doing all of this in the terminal we are going to create a script file with all relevant commands. Move back in to `unix_workshop` and use `vim` to create our new script file:
+Rather than doing all of this in the terminal we are going to create a script file with all relevant commands. Move back in to `unix_lesson` and use `vim` to create our new script file:
 
 ```bash
-$ cd ~/unix_workshop
+$ cd ~/unix_lesson
 
 $ vim generate_bad_reads_summary.sh
 ```
@@ -248,7 +248,7 @@ This line is the absolute path to the Bash interpreter. The shebang line ensures
 After the shebang line, we enter the commands we want to execute. First we want to move into our `raw_fastq` directory:
 
 ```bash
-cd ~/unix_workshop/raw_fastq
+cd ~/unix_lesson/raw_fastq
 ```
 
 And now we loop over all the FASTQs:
@@ -291,7 +291,7 @@ Save and exit `vim`, and voila! You now have a script you can use to assess the 
 #!/bin/bash 
 
 # enter directory with raw FASTQs
-cd ~/unix_workshop/raw_fastq
+cd ~/unix_lesson/raw_fastq
 
 # count bad reads for each FASTQ file in our directory
 for filename in *.fq 
