@@ -2,11 +2,11 @@
 
 | Audience | Computational Skills | Prerequisites | Duration |
 :----------|:----------|:----------|:----------|
-| Biologists | Beginner/Intermediate | None | 1-day workshop (~7 hours of trainer-led time)|
+| Biologists | Beginner/Intermediate | None | 1-day workshop (~6 hours of trainer-led time)|
 
 ### Description
 
-This repository has teaching materials for a 1-day Introduction to shell workshop. This workshop focuses on teaching basic skills to use the command line interface using the `bash` shell, including shell scripting. This workshop is a prerequisite to a workshop on RNA-seq analysis.
+This repository has teaching materials for a 1-day Introduction to shell workshop. This workshop focuses on teaching basic skills to use the command line interface, specifically `bash`, the lessons include `for` loops, shell scripting, positional parameters. This workshop is a prerequisite to a workshop on [RNA-seq analysis](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/).
 
 > These materials were developed for a trainer-led workshop, but are also amenable to self-guided learning.
 
