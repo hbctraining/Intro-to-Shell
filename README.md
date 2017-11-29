@@ -1,4 +1,4 @@
-# Introduction to shell (UNIX)
+# Introduction to shell (bash)
 
 | Audience | Computational Skills | Prerequisites | Duration |
 :----------|:----------|:----------|:----------|
