@@ -6,7 +6,7 @@
 
 ### Description
 
-This repository has teaching materials for a 1-day Introduction to shell workshop. This workshop focuses on teaching basic skills to use the command line interface, specifically `bash`, the lessons include `for` loops, shell scripting, positional parameters. This workshop is a prerequisite to a workshop on [RNA-seq analysis](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/).
+This repository has teaching materials for a 1-day Introduction to shell workshop. This workshop focuses on teaching basic skills to use the command line interface, specifically `bash`, the lessons include `for` loops, shell scripting, positional parameters. This workshop is a prerequisite to a workshop on [RNA-seq analysis](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/) and [ChIP-seq analysis]().
 
 > These materials were developed for a trainer-led workshop, but are also amenable to self-guided learning.
 
