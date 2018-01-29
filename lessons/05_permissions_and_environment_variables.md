@@ -147,6 +147,7 @@ If we wanted to make this an executable file for ourselves (the file's owners) w
 >> The fact that something is marked as executable doesn't actually mean it contains or is a program of some kind. We could easily mark the `~/unix_lesson/raw_fastq/Irrel_kd_1.subset.fq` file as executable using `chmod`. Depending on the operating system we're using, trying to "run" it will fail (because it doesn't contain instructions the computer recognizes, i.e. it is not a script of some type).
 
 ****
+
 **Exercise**
 
 If `ls -l myfile.php` returns the following details:
@@ -161,6 +162,7 @@ Which of the following statements is true?
 2. caro (the owner) cannot write to myfile.php
 3. members of caro (a group) can read, write, and execute myfile.php
 4. members of zoo (a group) cannot execute myfile.php
+
 ****
 
 ## **Environment Variables**
