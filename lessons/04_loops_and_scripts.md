@@ -212,6 +212,7 @@ $ basename ~/unix_lesson/raw_fastq/Mov10_oe_1.subset.fq .fq
 You should now see that only `Mov10_oe_1.subset` is returned. 
 
 ***
+
 **Exercise**
 
 * How would you modify the above `basename` command to only return `Mov10_oe_1`?
