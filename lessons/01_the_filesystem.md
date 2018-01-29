@@ -243,9 +243,11 @@ You should now be in `raw_fastq` and you got there without having to go through 
 
 
 ****
+
 **Exercise**
 
 List the `Mov10_oe_1.subset.fq` file from your home directory without changing directories
+
 ****
 
 ## Full vs. Relative Paths
@@ -286,9 +288,11 @@ You can usually use either a full path or a relative path depending on what is m
 Over time, it will become easier for you to keep a mental note of the structure of the directories that you are using and how to quickly navigate among them.
 
 ***
+
 **Exercise**
 
 Change directories to `/home/username/unix_lesson/raw_fastq/`, and list the contents of `unix_lesson/other` without changing directories again.
+
 ***
 
 ### Saving time with tab completion, wildcards and other shortcuts 
@@ -342,6 +346,7 @@ So how does this actually work? The shell (bash) considers an asterisk "*" to be
 > An asterisk/star is only one of the many wildcards in UNIX, but this is the most powerful one and we will be using this one the most for our exercises.
 
 ****
+
 **Exercise**
 
 Do each of the following using a single `ls` command without
@@ -354,6 +359,8 @@ navigating to a different directory.
 BONUS: List all of the files in `/bin` that contain the letter 'a' or 'c'.
 
 ****
+
+
 #### Shortcuts
 
 There are some shortcuts which you should know about. Dealing with the
