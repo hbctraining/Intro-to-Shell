@@ -110,6 +110,7 @@ In addition to shortcuts for navigation, vim also offers editing shortcuts such 
 Practice some of the editing shortcuts, then quit the document without saving any changes.
 
 *** 
+
 **Exercise**
 
 We have covered some basic commands in vim, but practice is key for getting comfortable with the program. Let's
