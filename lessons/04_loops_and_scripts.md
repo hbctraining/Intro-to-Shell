@@ -249,12 +249,14 @@ This line is the absolute path to the Bash interpreter. The shebang line ensures
 After the shebang line, we enter the commands we want to execute. First we want to move into our `raw_fastq` directory:
 
 ```bash
+# enter directory with raw FASTQs
 cd ~/unix_lesson/raw_fastq
 ```
 
 And now we loop over all the FASTQs:
 
 ```bash
+# enter directory with raw FASTQs
 for filename in *.fq
 ```
 
@@ -319,12 +321,18 @@ To run this script, we simply enter the following command:
 $ sh generate_bad_reads_summary.sh
 ```
 
+How do we know if the script worked? Take a look inside the `raw_fastq` directory, we should see that for every one of the original FASTQ files we have two associated bad read files.
+
+```bash
+$ ls -l ~/unix_lesson/raw_fastq 
+```
+
 To keep our data organized, let's move all of the bad read files out of the `raw_fastq` directory into a new directory called `other`, and the script to a new directory called `scripts`.
 
 ```bash
-$ mkdir scripts
-
 $ mv raw_fastq/*bad* other/
+
+$ mkdir scripts
 $ mv *.sh scripts/
 ```
 
