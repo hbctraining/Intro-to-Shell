@@ -158,10 +158,9 @@ If `ls -l myfile.php` returns the following details:
  
 Which of the following statements is true?
  
-1. caro (the owner) can read, write, and execute myfile.php
-2. caro (the owner) cannot write to myfile.php
-3. members of caro (a group) can read, write, and execute myfile.php
-4. members of zoo (a group) cannot execute myfile.php
+1. members of caro (a group) can read, write, and execute myfile.php
+2. members of zoo (a group) cannot execute myfile.php
+3. caro (the owner) can read, write, and execute myfile.php
 
 ****
 
@@ -183,8 +182,6 @@ Let's see what is stored in these variables:
 
 ```bash
 $ echo $HOME
-
-/home/trainingaccount_03
 ```
 
 Variables, in most systems, are called or denoted with a "$" before the variable name, just like a regular variable.
