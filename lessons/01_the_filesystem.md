@@ -216,7 +216,7 @@ Finally, there is handy command that can help you see the structure of any direc
 ```bash
 #Ensure that you are in your unix_lesson directory and run the following command
 
-% tree
+$ tree
 ```
 
 #### Examining the contents of other directories
