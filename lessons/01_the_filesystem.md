@@ -211,6 +211,13 @@ Now do `ls` and `pwd`.
 
 > `..` denotes parent directory, and you can use it anywhere in the system to go back to the parent directory. Can you think of an example when this won't work?
 
+Finally, there is handy command that can help you see the structure of any directory, namely `tree`.
+
+```bash
+#Ensure that you are in your unix_lesson directory and run the following command
+
+% tree
+```
 
 #### Examining the contents of other directories
 
