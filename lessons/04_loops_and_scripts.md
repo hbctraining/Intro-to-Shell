@@ -226,7 +226,7 @@ Now that you've learned how to use loops and variables, let's put this processin
 - Use for loop to iterate over each FASTQ file
 - Generate a prefix to use for naming our output files
 - Dump out bad reads into a new file
-- Get the count of the number of bad reads and generate a summary for each file
+- Get the count of the number of bad reads and generate a summary file
 
 You might not realize it, but this is something that you now know how to do. Let's get started...
 
@@ -282,11 +282,11 @@ We'll also count the number of these reads and put that in a new file, using the
 
 ```bash
   # grab the number of bad reads and write it to a summary file
-  grep -cH NNNNNNNNNN $filename > $base-badreads.count.summary
+  grep -cH NNNNNNNNNN $filename >> badreads.count.summary
 done
 ```
 
-If you've noticed, we used a new `grep` flag `-H` above; this flag will report the filename along with the match string. This is useful for when we generate the summary file.
+If you've noticed, we used a new `grep` flag `-H` above; this flag will report the filename along with the match string. This is useful for when we generate the summary file and we know what number associates with which file.
 
 Save and exit `vim`, and voila! You now have a script you can use to assess the quality of all your new datasets. Your finished script, complete with comments, should look like the following:
 
@@ -310,7 +310,7 @@ do
   grep -B1 -A2 NNNNNNNNNN $filename > $base-badreads.fastq
 
   # grab the number of bad reads and write it to a summary file
-  grep -cH NNNNNNNNNN $filename > $base-badreads.count.summary
+  grep -cH NNNNNNNNNN $filename >> badreads.count.summary
 done
 
 ```
@@ -321,7 +321,7 @@ To run this script, we simply enter the following command:
 $ sh generate_bad_reads_summary.sh
 ```
 
-How do we know if the script worked? Take a look inside the `raw_fastq` directory, we should see that for every one of the original FASTQ files we have two associated bad read files.
+How do we know if the script worked? Take a look inside the `raw_fastq` directory, we should see that for every one of the original FASTQ files we have one bad read file. We should also have a summary log file documenting the total number of bad reads from each file.
 
 ```bash
 $ ls -l ~/unix_lesson/raw_fastq 
