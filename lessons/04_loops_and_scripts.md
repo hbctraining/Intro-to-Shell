@@ -116,10 +116,10 @@ To list all the filenames in the directory that have a `.fq` extension, we know 
 $ ls *.fq
 ```
 
-Now we want to *assign* the output of `ls` to the variable:
+Now we want to *assign* the output of `ls` as the value of a variable:
 
 ```bash
-$ filenames=`ls *.fq`
+$ allfiles=`ls *.fq`
 ```
 
 > Note the syntax for assigning output of commands to variables, i.e. the backticks around the `ls` command.
@@ -127,22 +127,22 @@ $ filenames=`ls *.fq`
 Check and see what's stored inside our newly created variable using `echo`:
 	
 ```bash
-$ echo $filenames
+$ echo $allfiles
 ```
 
-Let's try the `wc -l` command again, but this time using our new variable `filenames` as the argument:
+Let's try the `wc -l` command again, but this time using our new variable `allfiles` as the argument:
 
 ```bash
-$ wc -l $filenames
+$ wc -l $allfiles
 ```
 
-What just happened? Because our variable contains multiple values, the shell runs the command on each value stored in `filenames` and prints the results to screen. 
+What just happened? Because our variable contains multiple values, the shell runs the command on each value stored in `allfiles` and prints the results to screen. 
 
 ***
 
 **Exercise**
 
-* Use some of the other commands we learned in previous lessons (i.e. `head`, `tail`) on the `filenames` variable. 
+* Use some of the other commands we learned in previous lessons (i.e. `head`, `tail`) on the `allfiles` variable. 
 
 ***
 
@@ -275,7 +275,7 @@ and then we execute the commands for each loop:
   echo $filename
   
   # grab all the bad read records into new file
-  grep -B1 -A2 NNNNNNNNNN $filename > $base-badreads.fastq
+  grep -B1 -A2 NNNNNNNNNN $filename > ${base}-badreads.fastq
 ``` 
   
 We'll also count the number of these reads and put that in a new file, using the count flag of `grep`:
@@ -307,7 +307,7 @@ do
   echo $filename
 
   # grab all the bad read records
-  grep -B1 -A2 NNNNNNNNNN $filename > $base-badreads.fastq
+  grep -B1 -A2 NNNNNNNNNN $filename > ${base}-badreads.fastq
 
   # grab the number of bad reads and write it to a summary file
   grep -cH NNNNNNNNNN $filename >> badreads.count.summary
