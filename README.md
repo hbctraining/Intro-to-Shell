@@ -2,7 +2,7 @@
 
 | Audience | Computational Skills Required | Duration |
 :----------|:----------|:----------|:----------|
-| Biologists | None | 1-day workshop (~6 hours of trainer-led time)|
+| Biologists | None | 1-day workshop (~6 hours of trainer-led time) |
 
 ### Description
 
