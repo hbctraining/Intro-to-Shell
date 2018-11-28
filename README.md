@@ -1,9 +1,9 @@
 ## Introduction to ChIP-seq using high performance computing
 
 
-| Audience | Computational Skills | Prerequisites | Duration |
+| Audience | Computational Skills Required | Duration |
 :----------|:----------|:----------|:----------|
-| Biologists | Beginner/Intermediate | None | 3-day workshop (~19.5 hours of trainer-led time) |  
+| Biologists | None | 3-day workshop (~19.5 hours of trainer-led time) |  
 
 ### Description
 
