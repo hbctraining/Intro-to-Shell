@@ -1,5 +1,11 @@
 # Introduction to shell (bash)
 
+| Audience | Computational skills required | Duration |
+:----------|:-------------|:----------|
+| Biologists | None | 1.5 or 2-day workshop (~ 9 - 13 hours of trainer-led time)|
+
+
+
 | Audience | Computational Skills Required | Duration |
 :----------|:----------|:----------|:----------|
 | Biologists | None | 1-day workshop (~6 hours of trainer-led time) |
