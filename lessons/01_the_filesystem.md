@@ -175,7 +175,7 @@ First we did something like go to the folder of our username. Then we opened `un
 
 Like on any computer you have used before the file structure within unix is hierarchical, like an upside down tree with root (/) as the starting point of the tree-like structure:
 
-![Unix](../img/Slide1.jpg)
+<img src="../img/directory_structure.png" width="600">
 
 That root (/) is often also called the 'top' level.
 
