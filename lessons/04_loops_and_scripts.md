@@ -52,7 +52,9 @@ $ sh listing.sh
 > 
 > Were the `echo` commands helpful in letting you know what came next?
 
-This is a very simple shell script. In this session and in upcoming sessions, we will be learning how to write more complex ones, and use the power of scripts to make our lives much easier.
+This is a very simple shell script, just to introduce you to the concept. Later in this session, we will be learning how to write more complex ones scripts to illustrate the power of scripts and how they can make our lives (when coding) much easier. Any type of data you will want to analyze will inevitably involve not just one step, but many steps and perhaps many different tools/software programs. Compiling these into a shell script is the first step in creating your analysis workflow!
+
+Before we jump into more scripts, we will take a moment to cover some key concepts to help get you there.
 
 ## Bash variables
 A *variable* is a common concept shared by many programming languages. Variables are essentially a symbolic/temporary name for, or a reference to, some information. Variables are analogous to "buckets", where information can be stored, maintained and modified without too much hassle. 
@@ -191,7 +193,7 @@ It doesn't matter what variable name we use, but it is advisable to make it some
 
 ### The `basename` command
 
-Before we get started on creating more complex scripts, we want to introduce you to a command that will be useful for future scripting. The `basename` command is used for extracting the base name of a file, which is accomplished using **string splitting to strip the directory and any suffix from filenames**. Let's try an example, by first moving back to your home directory:
+We have one last concept that is a command that will be useful for future scripting. The `basename` command is used for extracting the base name of a file, which is accomplished using **string splitting to strip the directory and any suffix from filenames**. Let's try an example, by first moving back to your home directory:
 
 ```bash
 $ cd
@@ -221,7 +223,7 @@ You should now see that only `Mov10_oe_1.subset` is returned.
 
 ## Automating with Scripts
 	
-Now that you've learned how to use loops and variables, let's put this processing power to work. Imagine, if you will, a script that will run a series of commands that would do the following for us each time we get a new data set:
+Now we're ready to incorporate these new concepts into a complex shell script and put this processing power to work. Imagine, if you will, a script that will run a series of commands that would do the following for us each time we get a new data set:
 
 - Use for loop to iterate over each FASTQ file
 - Generate a prefix to use for naming our output files
