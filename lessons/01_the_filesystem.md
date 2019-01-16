@@ -431,9 +431,9 @@ $ history
 ```
 
 to see a numbered list of recent commands, including this just issues
-`history` command. 
+`history` command. Only a certain number of commands are stored and displayed with `history`, there is a way to modify this to store a different number.
 
-> Only a certain number of commands are stored and displayed with `history`, there is a way to modify this to store a different number.
+> **NOTE:** So far we have only run very short commands that have few or no arguments, and so it would be faster to just retype it than to check the history. However, as you start to run analyses on the commadn-line you will find your commands to be more complex and the history to be very useful!
 
 **Other handy command-related shortcuts**
 
