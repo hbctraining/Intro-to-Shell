@@ -4,7 +4,7 @@
 
 | Time            |  Topic  | Instructor |
 |:------------------------:|:------------------------------------------------:|:--------:|
-|9:00 - 9:40 | [Workshop Introduction]() | Radhika |
+|9:00 - 9:40 | [Workshop Introduction](https://github.com/hbctraining/Intro-to-Shell/raw/master/lectures/Intro_to_workshop.pdf) | Radhika |
 |9:40 - 10:30 | [Introduction to the Shell](https://hbctraining.github.io/Intro-to-Shell/lessons/01_the_filesystem.html) | Radhika |
 |10:30 - 10:45 | Break | |
 |10:45 - 11:35 | [Introduction to the Shell (cont.)](https://hbctraining.github.io/Intro-to-Shell/lessons/01_the_filesystem.html) | Meeta |
