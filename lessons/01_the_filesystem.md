@@ -459,7 +459,15 @@ This prints out the all the contents of `sequences.fa` to the screen.
 
 What does this file contain?
 
-`cat` is a terrific command, but when the file is really big, it can be annoying to use. The command, `less`, is useful for this case. Let's take a look at the raw_fastq files. These files are quite large, so we probably do not want to use the `cat` command to look at them. Instead, we can use the `less` command. 
+`cat` is a terrific command, but when the file is really big, it can be annoying to use. In practice, when you are running your analyses on the command-line you will most likely be dealing with large files. The command, `less`, is useful for this case. Let's take a look at the list of raw_fastq files and add the `-h` modifier:
+
+```bash
+ls -lh ~/unix_lesson/raw_fastq
+```
+
+> The `ls` command has a modifier `-h` when paired with `-l`, will print sizes of files in human readable format 
+
+In the fourth column you wll see the size of each of these files, and you can see they are quite large, so we probably do not want to use the `cat` command to look at them. Instead, we can use the `less` command. 
 
 Move back to our `raw_fastq` directory and enter the following command:
 
