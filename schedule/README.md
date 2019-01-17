@@ -14,7 +14,7 @@
 |13:45 - 15:00 | [Loops and Shell Scripts](https://hbctraining.github.io/Intro-to-Shell/lessons/04_loops_and_scripts.html) | Meeta |
 |15:00 - 15:15 | Break | |
 |15:15 - 15:45 | [Permissions and Environment Variables](https://hbctraining.github.io/Intro-to-Shell/lessons/05_permissions_and_environment_variables.html) | Mary |
-15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster]() | Radhika |
+15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Radhika |
 16:40 - 17:00 | [Workshop wrap-up](https://github.com/hbctraining/Intro-to-Shell/raw/master/lectures/shell-workshop-wrapup.pdf) | Radhika |
 
 ***
