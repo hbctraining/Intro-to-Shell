@@ -13,11 +13,11 @@
 |13:15 - 13:45 | [Introduction to the Vim Text Editor](https://hbctraining.github.io/Intro-to-Shell/lessons/03_vim.html) | Mary |
 |13:45 - 15:00 | [Loops and Shell Scripts](https://hbctraining.github.io/Intro-to-Shell/lessons/04_loops_and_scripts.html) | Meeta |
 |15:00 - 15:15 | Break | |
-|15:15 - 15:45 | [Permissions and Environment Variables](https://hbctraining.github.io/Intro-to-Shell/lessons/05_permissions_and_environment_variables.html) | Radhika |
-15:45 - 16:40 | Introduction to High-Performance Computing and the O2 cluster | Radhika |
-16:40 - 17:00 | Workshop wrap-up | Radhika |
+|15:15 - 15:45 | [Permissions and Environment Variables](https://hbctraining.github.io/Intro-to-Shell/lessons/05_permissions_and_environment_variables.html) | Mary |
+15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster]() | Radhika |
+16:40 - 17:00 | [Workshop wrap-up](https://github.com/hbctraining/Intro-to-Shell/raw/master/lectures/shell-workshop-wrapup.pdf) | Radhika |
 
-***
+***https://github.com/hbctraining/Intro-to-Shell/raw/master/lectures/shell-workshop-wrapup.pdf
 *These materials have been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
 
 * *Some materials used in these lessons were derived from work that is Copyright © Data Carpentry (http://datacarpentry.org/). 
