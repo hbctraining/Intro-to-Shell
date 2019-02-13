@@ -56,7 +56,7 @@ The command prompt will have some characters before it, something like `[rc_trai
 The first command we will type on the command prompt will be to start a so-called "interactive session" on O2.
 
 ```bash
-$ srun --pty -p short -t 0-12:00 --mem 8G --reservation=HBC /bin/bash
+$ srun --pty -p short -t 0-12:00 --mem 1G --reservation=HBC /bin/bash
 ```
 
 Press enter after you type in that command. You will get a couple of messages, but in a few seconds you should get back the command prompt `$`; the string of characters before the command prompt, however, have changed. They should say something like `[rc_training01@compute-a-16-73 ~]`. *We will be explaining what this means in more detail later when we talk about HPC and O2.* 
@@ -65,7 +65,7 @@ Make sure that your command prompt is now preceded by a character string that co
 
 > NOTE: When you run the `srun` command after this workshop with your own account please use the following command (without the `--reservation` option and with `-p interactive`):
 > 
-> `srun --pty -p interactive -t 0-12:00 --mem 8G /bin/bash`
+> `srun --pty -p interactive -t 0-12:00 --mem 1G /bin/bash`
 > 
 > The "reservation" is only active for the training accounts, and only for the duration of this workshop. We will be talking in more detail about the `-p` option later in this workshop.
 
