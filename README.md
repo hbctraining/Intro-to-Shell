@@ -15,7 +15,7 @@ This repository has teaching materials for a 1-day Introduction to shell worksho
 1.	Understand the necessity for, and use of, the command line interface (bash/shell).
 
 ### Lessons
-**[Click here](https://hbctraining.github.io/Intro-to-Shell/schedule/) for links to lessons and the suggested schedule**
+**[Click here](schedule) for links to lessons and the suggested schedule**
 
 ### Installation Requirements
 ***Mac users:***
