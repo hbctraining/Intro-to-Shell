@@ -5,14 +5,14 @@
 |9:00 - 9:40 | [Workshop Introduction](../lectures/Intro_to_workshop.pdf) | Radhika |
 |9:40 - 10:30 | [Introduction to the Shell](../lessons/01_the_filesystem.md) | Radhika |
 |10:30 - 10:45 | Break | |
-|10:45 - 11:35 | [Introduction to the Shell (cont.)](../lessons/01_the_filesystem.md) | Meeta |
+|10:45 - 11:35 | [Introduction to the Shell (cont.)](../lessons/01_the_filesystem.md) | Jihe |
 |11:35 - 12:15 | [Searching and Redirection](../lessons/02_searching_files.md) | Mary |
 |12:15 - 13:15 | Lunch | |
 |13:15 - 13:45 | [Introduction to the Vim Text Editor](../lessons/03_vim.md) | Mary |
 |13:45 - 15:00 | [Loops and Shell Scripts](../lessons/04_loops_and_scripts.md) | Meeta |
 |15:00 - 15:15 | Break | |
-|15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Mary |
-15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Radhika |
+|15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Radhika |
+15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Kathleen Keating |
 16:40 - 17:00 | [Workshop wrap-up](../lectures/shell-workshop-wrapup.pdf) | Radhika |
 
 ***
