@@ -12,8 +12,9 @@
 |13:45 - 15:00 | [Loops and Shell Scripts](../lessons/04_loops_and_scripts.md) | Meeta |
 |15:00 - 15:15 | Break | |
 |15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Radhika |
-15:45 - 16:40 | [Introduction to High-Performance Computing and the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Kathleen Keating |
-16:40 - 17:00 | [Workshop wrap-up](../lectures/shell-workshop-wrapup.pdf) | Radhika |
+|15:45 - 16:00 | [Introduction to High-Performance Computing](../lectures/HPC_intro_O2_short.pdf) | Radhika |
+|16:00 - 16:45 | [Introduction to the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Kathleen Keating |
+|16:45 - 17:00 | [Workshop wrap-up](../lectures/shell-workshop-wrapup.pdf) | Radhika |
 
 ***
 *These materials have been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
