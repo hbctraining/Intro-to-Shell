@@ -1,4 +1,4 @@
-# Introduction to shell (bash)
+# Introduction to the command line interface (shell/bash/Unix/Linux)
 
 | Audience | Computational skills required | Duration |
 :----------|:-------------|:----------|
