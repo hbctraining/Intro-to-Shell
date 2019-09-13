@@ -586,7 +586,7 @@ just nicely put the files in the Trash. They're really gone.
 We really don't need these backup directories, so, let's delete both. By default, `rm`, will NOT delete directories, but you use the `-r` flag if you are sure that you want to delete the directories and everything within them. To be safe, let's use it with the `-i` flag.
 
 ```bash
-$ rm -ri backup_ref_data/ backup_fastq/ 
+$ rm -ri backup/ 
 ```
 
 - `-r`: recursive, commonly used as an option when working with directories, e.g. with `cp`. 
