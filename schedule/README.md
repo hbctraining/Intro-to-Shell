@@ -2,8 +2,8 @@
 
 | Time            |  Topic  | Instructor |
 |:------------------------:|:------------------------------------------------:|:--------:|
-|9:00 - 9:40 | [Workshop Introduction](../lectures/Intro_to_workshop_new.pdf) | Radhika |
-|9:40 - 10:30 | [Introduction to the Shell](../lessons/01_the_filesystem.md) | Radhika |
+|09:00 - 09:40 | [Workshop Introduction](../lectures/Intro_to_workshop_new.pdf) | Radhika |
+|09:40 - 10:30 | [Introduction to the Shell](../lessons/01_the_filesystem.md) | Radhika |
 |10:30 - 10:45 | Break | |
 |10:45 - 11:35 | [Introduction to the Shell (cont.)](../lessons/01_the_filesystem.md) | Jihe |
 |11:35 - 12:15 | [Searching and Redirection](../lessons/02_searching_files.md) | Mary |
