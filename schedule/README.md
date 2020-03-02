@@ -9,9 +9,9 @@
 |11:35 - 12:15 | [Searching and Redirection](../lessons/02_searching_files.md) | Mary |
 |12:15 - 13:15 | Lunch | |
 |13:15 - 13:45 | [Introduction to the Vim Text Editor](../lessons/03_vim.md) | Mary |
-|13:45 - 15:00 | [Loops and Shell Scripts](../lessons/04_loops_and_scripts.md) | Meeta |
+|13:45 - 15:00 | [Loops and Shell Scripts](../lessons/04_loops_and_scripts.md) | Radhika |
 |15:00 - 15:15 | Break | |
-|15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Radhika |
+|15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Mary |
 |15:45 - 16:00 | [Introduction to High-Performance Computing](../lectures/HPC_intro_O2.pdf) | Radhika |
 |16:00 - 16:45 | [Introduction to the O2 cluster](../lectures/HPC_intro_O2.pdf) | Kathleen Keating |
 |16:45 - 17:00 | [Workshop wrap-up](../lectures/Workshop-wrapup.pdf) | Radhika |
