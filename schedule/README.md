@@ -12,8 +12,8 @@
 |13:45 - 15:00 | [Loops and Shell Scripts](../lessons/04_loops_and_scripts.md) | Radhika |
 |15:00 - 15:15 | Break | |
 |15:15 - 15:45 | [Permissions and Environment Variables](../lessons/05_permissions_and_environment_variables.md) | Mary |
-|15:45 - 16:00 | Introduction to High-Performance Computing | Radhika |
-|16:00 - 16:45 | Introduction to the O2 cluster | Kathleen Keating |
+|15:45 - 16:00 | [Introduction to High-Performance Computing](../lectures/HPC_intro_O2_short.pdf) | Radhika |
+|16:00 - 16:45 | [Introduction to the O2 cluster](../lectures/HPC_intro_O2_short.pdf) | Kathleen Keating |
 |16:45 - 17:00 | [Workshop wrap-up](../lectures/Workshop-wrapup.pdf) | Radhika |
 
 ***
